@@ -39,7 +39,7 @@ const App = () => {
   }, []);
   return (
     <>
-      {/*       <div class="mouse" id=""scrollIcon></div> */}
+      {/* <div className="mouse" id="scrollIcon"></div> */}
       <div className="bg-primary h-auto lg:h-screen p-3 md:p-8 xl:px-20 grid grid-rows-1 md:grid-cols-1 lg:grid-cols-2 lg:overflow-hidden pb-12">
         <LeftSide ref={leftRef} />
         <RightSide ref={rightRef} />

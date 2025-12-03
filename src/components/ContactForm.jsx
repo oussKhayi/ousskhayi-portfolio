@@ -28,8 +28,7 @@ export const ContactForm = () => {
       setResult("Thank you for reaching out! I will get back to you soon.");
       event.target.reset();
     } else {
-      console.log("Error", data);
-      setResult(data.message);
+      setResult(data.message || "Failed to send message. Please try again.");
     }
   };
 

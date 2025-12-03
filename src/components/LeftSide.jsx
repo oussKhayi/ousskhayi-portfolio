@@ -1,5 +1,4 @@
 import React from "react";
-import me from "../images/me0.png";
 import {
   BsLinkedin,
   BsInstagram,
@@ -10,9 +9,10 @@ import {
   BsGithub,
 } from "react-icons/bs";
 
-export const LeftSide = () => {
+export const LeftSide = React.forwardRef((props, ref) => {
   return (
     <div
+      ref={ref}
       className="w-full h-fit min-h-full pt-8 lg:p-16 px-2 left-div"
       id="leftDiv"
     >
@@ -23,7 +23,9 @@ export const LeftSide = () => {
         Full stack web developer
       </h4>
       <p className="text-gray-400 w-[90%] md:w-[60%] lowercase first-letter:capitalize">
-    Crafting comprehensive digital experiences from concept to deployment, specializing in developing robust frontends and scalable backends for web applications.
+        Crafting comprehensive digital experiences from concept to deployment,
+        specializing in developing robust frontends and scalable backends for
+        web applications.
       </p>
       <a
         href="https://drive.google.com/file/d/1iOHuijG3GxAhC-x-mq1Cna3arUMiKwup/view"
@@ -121,9 +123,8 @@ export const LeftSide = () => {
           />
         </a>
       </div>
-      {/* <div className="p-5 w-fit rounded-lg xl:mt-14 hidden lg:block">
-        <img src={me} width={"240px"} alt="" className="me" />
-      </div> */}
     </div>
   );
-};
+});
+
+LeftSide.displayName = "LeftSide";

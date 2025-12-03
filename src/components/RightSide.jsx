@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../data.json";
-import { BsGithub, BsEye } from "react-icons/bs";
 import { ContactForm } from "./ContactForm";
 
 const RightSide = () => {
@@ -10,19 +9,36 @@ const RightSide = () => {
       id="rightDiv"
     >
       {/* About Section */}
-      <div className="text-[#afafaf] px-2 pt-8 lg:ps-2 lg:pe-20 lg:pt-8 text-sm md:text-md" id="about">
+      <div
+        className="text-[#afafaf] px-2 pt-8 lg:ps-2 lg:pe-20 lg:pt-8 text-sm md:text-md"
+        id="about"
+      >
         <h3 className="text-2xl font-bold pb-2 capitalize text-[#c4d0ec] hover:text-[#54d2d4] cursor-pointer">
           About me
         </h3>
         <p>
           I'm a{" "}
-          <span className="font-extrabold text-[#54d2d4]">Junior Web Developer</span> and{" "}
-          <span className="text-[#54d2d4]">Web Applications Developer</span> who contributes to the 
-          success of various projects. Check out some of my work in the{" "}
-          <span className="text-[#54d2d4]">Projects</span> section.  
-          I enjoy sharing insights about Web Development and Programming.  
-          Feel free to connect with me on{" "}
-          <span className="text-[#54d2d4]">LinkedIn</span>.
+          <span className="font-extrabold text-[#54d2d4]">
+            Full Stack Web Developer
+          </span>{" "}
+          specializing in building scalable, high-performance applications with
+          the <span className="text-[#54d2d4]">Vue.js</span>, Nuxt.js, and
+          Laravel. Currently at{" "}
+          <span className="font-semibold text-[#54d2d4]">PIYES.COM</span>, I
+          develop full-stack features with Laravel backends and Vue.js/Nuxt.js
+          frontends, while implementing CI/CD pipelines and managing
+          containerized environments.
+        </p>
+        <p className="mt-4">
+          With expertise in{" "}
+          <span className="text-[#54d2d4]">
+            Vue.js, Nuxt.js, Laravel, MongoDB, Express.js, React.js, Next.js, Node.js
+          </span>
+          , and <span className="text-[#54d2d4]">PHP Laravel</span>, I've
+          delivered projects from concept to production, focusing on intuitive
+          user experiences and robust backend systems. I thrive in collaborative
+          agile environments, turning ideas into impactful digital products that
+          blend functionality, performance, and user-centric design.
         </p>
       </div>
 
@@ -41,9 +57,13 @@ const RightSide = () => {
                     key={index}
                   >
                     <div className="relative">
-                      <h4 className="text-sm font-semibold text-[#54d2d4] capitalize">{exp.title}</h4>
+                      <h4 className="text-sm font-semibold text-[#54d2d4] capitalize">
+                        {exp.title}
+                      </h4>
                       <div className="mt-2 pb-2">
-                        <p className="text-gray-400 group-hover:text-gray-300 text-xs">{exp.description}</p>
+                        <p className="text-gray-400 group-hover:text-gray-300 text-xs">
+                          {exp.description}
+                        </p>
                       </div>
                       <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
                         <span className="py-1 px-3 inline-flex items-center gap-x-1 text-xs font-medium rounded-full bg-teal-500/10 text-teal-500 capitalize text-nowrap">
@@ -71,7 +91,10 @@ const RightSide = () => {
               <h4>Frontend</h4>
               <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-3">
                 {data.technologies["front-end"].map((tech, index) => (
-                  <div key={index} className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl">
+                  <div
+                    key={index}
+                    className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl"
+                  >
                     <span data-text={tech.name} className="tooltip">
                       <i className={`${tech.icon} text-3xl`}></i>
                     </span>
@@ -83,7 +106,10 @@ const RightSide = () => {
               <h4>Backend</h4>
               <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-3">
                 {data.technologies["back-end"].map((tech, index) => (
-                  <div key={index} className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl">
+                  <div
+                    key={index}
+                    className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl"
+                  >
                     <span data-text={tech.name} className="tooltip">
                       <i className={`${tech.icon} text-3xl`}></i>
                     </span>
@@ -95,7 +121,10 @@ const RightSide = () => {
               <h4>Tools</h4>
               <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-3">
                 {data.technologies["tools"].map((tech, index) => (
-                  <div key={index} className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl">
+                  <div
+                    key={index}
+                    className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl"
+                  >
                     <span data-text={tech.name} className="tooltip">
                       <i className={`${tech.icon} text-3xl`}></i>
                     </span>
@@ -116,13 +145,23 @@ const RightSide = () => {
           <div className="mx-auto max-w-6xl text-gray-500">
             <div className="grid gap-3">
               {data.projects.map((prd, index) => (
-                <div key={index} className="relative group overflow-hidden p-8 rounded-xl border border-gray-800 bg-primary">
+                <div
+                  key={index}
+                  className="relative group overflow-hidden p-8 rounded-xl border border-gray-800 bg-primary"
+                >
                   <div className="relative">
-                    <h4 className="text-sm font-semibold text-[#54d2d4] capitalize">{prd.title}</h4>
-                    <p className="text-gray-400 group-hover:text-gray-300 text-xs">{prd.description}</p>
+                    <h4 className="text-sm font-semibold text-[#54d2d4] capitalize">
+                      {prd.title}
+                    </h4>
+                    <p className="text-gray-400 group-hover:text-gray-300 text-xs">
+                      {prd.description}
+                    </p>
                     <div className="flex gap-3 py-4 border-t border-gray-200 dark:border-gray-800">
                       {prd.technologies.map((tech, dx) => (
-                        <span key={dx} className="py-1 px-3 inline-flex items-center text-xs font-medium rounded-full bg-teal-500/10 text-teal-500 capitalize">
+                        <span
+                          key={dx}
+                          className="py-1 px-3 inline-flex items-center text-xs font-medium rounded-full bg-teal-500/10 text-teal-500 capitalize"
+                        >
                           {tech}
                         </span>
                       ))}
