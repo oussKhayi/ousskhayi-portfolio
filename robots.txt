@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Prevent crawl of build system files
+Disallow: /node_modules/
+Disallow: /src/
+
+Sitemap: https://www.oussama-khayi.com/sitemap.xml

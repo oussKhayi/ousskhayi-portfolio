@@ -140,6 +140,10 @@
   "technologies": {
     "front-end": [
       {
+        "icon": "devicon-typescript-plain colored",
+        "name": "Typescript"
+      },
+      {
         "icon": "devicon-nextjs-plain text-white",
         "name": "Next.js"
       },
@@ -186,6 +190,10 @@
         "name": "Node.js"
       },
       {
+        "icon": "devicon-nestjs-plain colored",
+        "name": "Nest.js"
+      },
+      {
         "icon": "devicon-express-original text-white",
         "name": "Express.js"
       },
@@ -212,6 +220,20 @@
       {
         "icon": "devicon-postgresql-plain colored",
         "name": "PostgreSQL"
+      }
+    ],
+    "mobile": [
+      {
+        "icon":"devicon-expo-plain colored",
+        "name":"Expo"
+      },
+      {
+        "icon": "devicon-react-original colored",
+        "name": "React Native"
+      },
+      {
+        "icon": "devicon-flutter-plain colored",
+        "name": "FlutterFlow"
       }
     ],
     "devops": [
