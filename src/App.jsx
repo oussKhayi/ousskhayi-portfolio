@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from "react";
+import React, { useEffect, useRef } from "react";
 import { LeftSide } from "./components/LeftSide";
 import RightSide from "./components/RightSide";
 import {
@@ -11,9 +11,10 @@ import {
 
 import "./App.css";
 
+const App = () => {
   const leftRef = useRef(null); // Reference for the left div
   const rightRef = useRef(null); // Reference for the right div
- useEffect(() => {
+  useEffect(() => {
     const leftDiv = leftRef.current;
     const rightDiv = rightRef.current;
 
@@ -25,19 +26,21 @@ import "./App.css";
     };
 
     // Attach the scroll event listener to the left div
-    leftDiv.addEventListener("wheel", handleScroll);
+    if (leftDiv) {
+      leftDiv.addEventListener("wheel", handleScroll);
+    }
 
     // Clean up the event listener on component unmount
     return () => {
-      leftDiv.removeEventListener("wheel", handleScroll);
+      if (leftDiv) {
+        leftDiv.removeEventListener("wheel", handleScroll);
+      }
     };
   }, []);
-
-const App = () => {
   return (
     <>
-{/*       <div class="mouse" id=""scrollIcon></div> */}
-      <div className="bg-primary h-auto lg:h-screen p-3 md:p-8 md:px-20 grid grid-rows-1 md:grid-cols-1 lg:grid-cols-2 md:overflow-hidden pb-12">
+      {/*       <div class="mouse" id=""scrollIcon></div> */}
+      <div className="bg-primary h-auto lg:h-screen p-3 md:p-8 xl:px-20 grid grid-rows-1 md:grid-cols-1 lg:grid-cols-2 lg:overflow-hidden pb-12">
         <LeftSide ref={leftRef} />
         <RightSide ref={rightRef} />
       </div>
