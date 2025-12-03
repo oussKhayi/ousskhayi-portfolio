@@ -93,7 +93,8 @@ body {
   margin-left: 15px; /* and add a small left margin */
 
   /* basic styles */
-  width: 200px;
+  max-width: fit-content;
+  text-wrap: nowrap;
   padding: 10px;
   border-radius: 10px;
   background: #000;

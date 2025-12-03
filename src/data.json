@@ -144,20 +144,32 @@
         "name": "Next.js"
       },
       {
-        "icon": "devicon-javascript-plain colored",
-        "name": "JavaScript"
-      },
-      {
         "icon": "devicon-react-original colored",
-        "name": "React"
+        "name": "React.js"
       },
       {
         "icon": "devicon-redux-original colored",
         "name": "Redux"
       },
       {
+        "icon": "devicon-javascript-plain colored",
+        "name": "JavaScript"
+      },
+      {
+        "icon": "devicon-vuejs-plain colored",
+        "name": "Vue.js"
+      },
+      {
+        "icon": "devicon-nuxtjs-plain colored",
+        "name": "Nuxt.js"
+      },
+      {
         "icon": "devicon-tailwindcss-original colored",
         "name": "Tailwind CSS"
+      },
+      {
+        "icon": "devicon-bootstrap-plain colored",
+        "name": "Bootstrap"
       },
       {
         "icon": "devicon-html5-plain colored",
@@ -166,10 +178,6 @@
       {
         "icon": "devicon-css3-plain colored",
         "name": "CSS3"
-      },
-      {
-        "icon": "devicon-bootstrap-plain colored",
-        "name": "Bootstrap"
       }
     ],
     "back-end": [
@@ -179,19 +187,65 @@
       },
       {
         "icon": "devicon-express-original text-white",
-        "name": "Express"
+        "name": "Express.js"
       },
       {
-        "icon": "devicon-mongodb-plain colored",
-        "name": "MongoDB"
+        "icon": "devicon-php-plain colored",
+        "name": "PHP"
       },
       {
         "icon": "devicon-laravel-plain colored",
         "name": "Laravel"
       },
       {
+        "icon": "devicon-mongodb-plain colored",
+        "name": "MongoDB"
+      },
+      {
+        "icon": "devicon-mongoose-original colored",
+        "name": "Mongoose"
+      },
+      {
         "icon": "devicon-mysql-plain colored",
         "name": "MySQL"
+      },
+      {
+        "icon": "devicon-postgresql-plain colored",
+        "name": "PostgreSQL"
+      }
+    ],
+    "devops": [
+      {
+        "icon": "devicon-docker-plain-wordmark colored",
+        "name": "Docker"
+      },
+      {
+        "icon": "devicon-gitlab-plain colored",
+        "name": "GitLab CI/CD"
+      },
+      {
+        "icon": "devicon-git-plain colored",
+        "name": "Git"
+      },
+      {
+        "icon": "devicon-portainer-plain colored",
+        "name": "Portainer"
+      },
+      {
+        "icon": "devicon-redis-plain colored",
+        "name": "Redis"
+      },
+      {
+        "icon": "devicon-linux-plain colored",
+        "name": "Linux"
+      },
+      {
+        "icon": "devicon-nginx-plain colored",
+        "name": "Nginx"
+      },
+      {
+        "icon": "devicon-amazonwebservices-plain colored",
+        "name": "MinIO - AWS S3"
       }
     ],
     "tools": [
@@ -200,7 +254,11 @@
         "name": "Swagger"
       },
       {
-        "icon": "devicon-github-original text-white",
+        "icon": "devicon-postman-plain colored",
+        "name": "Postman"
+      },
+      {
+        "icon": "devicon-github-original colored",
         "name": "GitHub"
       },
       {
@@ -208,12 +266,16 @@
         "name": "VS Code"
       },
       {
-        "icon": "devicon-postman-plain coloredred",
-        "name": "Postman"
+        "icon": "devicon-trello-plain colored",
+        "name": "Trello"
       },
       {
-        "icon": "devicon-git-plain colored",
-        "name": "Git"
+        "icon": "devicon-npm-original-wordmark colored",
+        "name": "npm"
+      },
+      {
+        "icon": "devicon-yarn-plain colored",
+        "name": "Yarn"
       }
     ]
   },

@@ -21,9 +21,9 @@ export const LeftSide = React.forwardRef((props, ref) => {
         Full stack web developer
       </h4>
       <p className="text-gray-400 w-[90%] md:w-[60%] lowercase first-letter:capitalize">
-        Crafting comprehensive digital experiences from concept to deployment,
-        specializing in developing robust frontends and scalable backends for
-        web applications.
+        Your ideas are my passion. I love turning concepts into real, impactful
+        digital experiences-beautiful on the frontend and rock-solid on the
+        backend.
       </p>
       <a
         href="https://drive.google.com/file/d/1iOHuijG3GxAhC-x-mq1Cna3arUMiKwup/view"

@@ -116,6 +116,21 @@ const RightSide = () => {
                 ))}
               </div>
 
+              {/* DevOps Skills */}
+              <h4>DevOps</h4>
+              <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-3">
+                {data.technologies["devops"].map((tech, index) => (
+                  <div
+                    key={index}
+                    className="bg-slate-800 border border-white/15 w-fit p-4 rounded-xl"
+                  >
+                    <span data-text={tech.name} className="tooltip">
+                      <i className={`${tech.icon} text-3xl`}></i>
+                    </span>
+                  </div>
+                ))}
+              </div>
+
               {/* Tools */}
               <h4>Tools</h4>
               <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-3">
