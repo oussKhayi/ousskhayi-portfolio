@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { LeftSide } from "./components/LeftSide";
 import RightSide from "./components/RightSide";
 import {

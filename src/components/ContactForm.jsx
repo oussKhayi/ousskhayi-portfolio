@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   BsFacebook,
   BsInstagram,
   BsLinkedin,
-  BsMailbox,
   BsMailbox2,
 } from "react-icons/bs";
 
@@ -35,10 +34,10 @@ export const ContactForm = () => {
   return (
     <div className="grid grid-cols-1 border p-3 rounded-lg border-secondary items-center gap-10 mx-auto max-w-4xl text-secondary font-[sans-serif]">
       <div>
-        <h1 className="text-3xl font-extrabold">Let's Talk</h1>
+        <h1 className="text-3xl font-extrabold">Let&apos;s Talk</h1>
         <p className="text-sm text-gray-400 mt-3">
           Have some big idea or brand to develop and need help? Then reach out
-          we'd love to hear about your project and provide help.
+          we&apos;d love to hear about your project and provide help.
         </p>
         <div className="mt-6">
           <h2 className="text-lg font-extrabold">Email</h2>
@@ -61,7 +60,7 @@ export const ContactForm = () => {
           <h2 className="text-lg font-extrabold">Socials</h2>
           <ul className="flex mt-3 space-x-4">
             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-              <a target="_blank" href="https://facebook.com/khayi.oussama">
+              <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/khayi.oussama">
                 <BsFacebook className="text-primary text-2xl" />
               </a>
             </li>
@@ -71,7 +70,7 @@ export const ContactForm = () => {
               </a>
             </li>
             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-              <a target="_blank" href="https://instagram.com/ousskhayi">
+              <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/ousskhayi">
                 <BsInstagram className="text-primary text-2xl" />
               </a>
             </li>
@@ -106,7 +105,7 @@ export const ContactForm = () => {
           cols="30"
           rows="10"
           className="min-w-full rounded-md p-3 text-sm bg-secondary bg-opacity-5 border border-secondary"
-          placeholder="Have a question, project idea, or just want to say hello? Feel free to drop me a message here! I'll get back to you as soon as possible."
+          placeholder="Have a question, project idea, or just want to say hello? Feel free to drop me a message here! I&apos;ll get back to you as soon as possible."
         ></textarea>
 
         <button

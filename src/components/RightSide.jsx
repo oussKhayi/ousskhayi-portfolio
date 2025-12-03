@@ -1,4 +1,3 @@
-import React from "react";
 import data from "../data.json";
 import { ContactForm } from "./ContactForm";
 
@@ -17,7 +16,7 @@ const RightSide = () => {
           About me
         </h3>
         <p>
-          I'm a{" "}
+          I&apos;m a{" "}
           <span className="font-extrabold text-[#54d2d4]">
             Full Stack Web Developer
           </span>{" "}
@@ -34,7 +33,7 @@ const RightSide = () => {
           <span className="text-[#54d2d4]">
             Vue.js, Nuxt.js, Laravel, MongoDB, Express.js, React.js, Next.js, Node.js
           </span>
-          , and <span className="text-[#54d2d4]">PHP Laravel</span>, I've
+          , and <span className="text-[#54d2d4]">PHP Laravel</span>, I&apos;ve
           delivered projects from concept to production, focusing on intuitive
           user experiences and robust backend systems. I thrive in collaborative
           agile environments, turning ideas into impactful digital products that

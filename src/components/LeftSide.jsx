@@ -3,9 +3,7 @@ import {
   BsLinkedin,
   BsInstagram,
   BsWhatsapp,
-  BsTwitterX,
   BsDownload,
-  BsTelegram,
   BsGithub,
 } from "react-icons/bs";
 
@@ -30,6 +28,7 @@ export const LeftSide = React.forwardRef((props, ref) => {
       <a
         href="https://drive.google.com/file/d/1iOHuijG3GxAhC-x-mq1Cna3arUMiKwup/view"
         target="_blank"
+        rel="noopener noreferrer"
         className="btn px-4 p-2 bg-secondary hover:bg-[#3eb8ba] mt-10 rounded-lg flex items-center capitalize light lightHover w-fit"
       >
         My resume <BsDownload className="ms-2" />
@@ -86,6 +85,7 @@ export const LeftSide = React.forwardRef((props, ref) => {
           className="contact"
           href="http://linkedin.com/in/ousskhayi"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsLinkedin
             size={"23px"}
@@ -96,6 +96,7 @@ export const LeftSide = React.forwardRef((props, ref) => {
           className="contact"
           href="http://github.com/ousskhayi"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsGithub
             size={"23px"}
@@ -106,6 +107,7 @@ export const LeftSide = React.forwardRef((props, ref) => {
           className="contact"
           href="http://instagram.com/ousskhayi"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsInstagram
             size={"23px"}
@@ -116,6 +118,7 @@ export const LeftSide = React.forwardRef((props, ref) => {
           className="contact"
           href="http://wa.me/+212658262886"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsWhatsapp
             size={"23px"}
