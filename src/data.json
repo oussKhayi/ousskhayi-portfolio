@@ -18,6 +18,27 @@
       ]
     },
     {
+      "title": "Full Stack Developer — FeizhouCom, Casablanca",
+      "startDate": "August 2024",
+      "endDate": "June 2025",
+      "description": "Designed and developed full-stack applications using Next.js and the MERN stack, building scalable REST APIs and responsive UIs. Managed MongoDB data models, optimized performance, and ensured clean, maintainable code. Took on technical leadership by mentoring juniors and contributing to architectural decisions. Collaborated with cross-functional teams in an Agile environment and improved workflows using Git, Swagger, Postman, and Docker.",
+      "technologies": [
+        "Next.js",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "REST API",
+        "Redux",
+        "Git",
+        "Swagger",
+        "Postman",
+        "Trello",
+        "Docker"
+      ]
+    },
+    {
       "title": "Full stack MERN Internship . Ark-X Talent Factory - Casablanca",
       "startDate": "jan 2024",
       "endDate": "Jun 2024",
