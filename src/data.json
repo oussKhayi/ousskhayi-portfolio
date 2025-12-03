@@ -1,31 +1,59 @@
 {
   "experience": [
-   {
-  "title": "Full stack Developer . Feizhoucom - Casablanca",
-  "startDate": "May 2024",
-  "endDate": "Present",
-  "description": "Internship focused on Node.js and server-side programming. Gained hands-on experience in developing, deploying, and maintaining backend services. Collaborated with the development team to build scalable and efficient server-side applications.",
-  "technologies": ["Node.js", "Express.js", "MongoDB", "REST API", "Postman", "Swagger", "Git"]
-},
+    {
+      "title": "Full Stack Developer . PIYES.COM - Casablanca",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "Developing full-stack features with Laravel backend (REST API) and Vue.js/Nuxt.js frontend. Collaborating with the team to implement modular architecture and model business requirements. Implementing CI/CD pipelines with GitLab and managing environments using Docker, Portainer, Redis, and MinIO. Contributing to code reviews, bug resolution, and technical documentation.",
+      "technologies": [
+        "PHP",
+        "Vue.js",
+        "Nuxt.js",
+        "REST API",
+        "GitLab",
+        "Docker",
+        "Portainer",
+        "Redis",
+        "MinIO"
+      ]
+    },
     {
       "title": "Full stack MERN Internship . Ark-X Talent Factory - Casablanca",
       "startDate": "jan 2024",
       "endDate": "Jun 2024",
       "description": "Engaged in an intensive MERN stack bootcamp at ARK-X Talent Factory, Casablanca. Focused on mastering MongoDB, Express.js, and Node.js for full-stack development. Learning essential skills while progressing towards becoming a proficient web developer.",
-      "technologies": ["React js", "Node JS", "Express JS", "MongoDB"]
-    },{
-  "title": "Full Stack Developer . Freelance (Self employed) - Morocco",
-  "startDate": "Jul 2023",
-  "endDate": "Jan 2024",
-  "description": "Worked as a freelance full stack developer, delivering various projects to clients. Specialized in building dynamic and responsive web applications using Laravel. Developed RESTful APIs and integrated third-party services. Ensured high-quality code and adherence to best practices.",
-  "technologies": ["React.js","Laravel/PHP", "MySQL","fullCalendar.js", "REST API", "Git"]
-},
+      "technologies": [
+        "React js",
+        "Node JS",
+        "Express JS",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Full Stack Developer . Freelance (Self employed) - Morocco",
+      "startDate": "Jul 2023",
+      "endDate": "Jan 2024",
+      "description": "Worked as a freelance full stack developer, delivering various projects to clients. Specialized in building dynamic and responsive web applications using Laravel. Developed RESTful APIs and integrated third-party services. Ensured high-quality code and adherence to best practices.",
+      "technologies": [
+        "React.js",
+        "Laravel/PHP",
+        "MySQL",
+        "fullCalendar.js",
+        "REST API",
+        "Git"
+      ]
+    },
     {
       "title": "Backend Laravel Developer Internship . Web Services SH - Laayoune",
       "startDate": "fab 2022",
       "endDate": "may 2022",
       "description": "During my one-month internship as a Laravel Developer at Web Services SH, Laayoune, I was responsible for the creation of an online cosmetics store.",
-      "technologies": ["laravel 9", "bootstrap", "mysql", "PhpMyAdmin"]
+      "technologies": [
+        "laravel 9",
+        "bootstrap",
+        "mysql",
+        "PhpMyAdmin"
+      ]
     }
   ],
   "projects": [
@@ -33,7 +61,12 @@
       "title": "Employees management system",
       "description": "An employees  management system website created by Laravel and Blade, including attendence and payments tracking.",
       "image": "https://www.cutehr.io/wp-content/uploads/2020/05/employees-dashboard-cuteHR-1-1400x788.jpg",
-      "technologies": ["laravel 9", "React js", "mysql", "uml"],
+      "technologies": [
+        "laravel 9",
+        "React js",
+        "mysql",
+        "uml"
+      ],
       "features": [],
       "github": "https://github.com/oussKhayi/employee-management",
       "demo": null
@@ -42,7 +75,12 @@
       "title": "Cars filters management",
       "description": "Cars filters management system created with Laravel, mysqli and react js",
       "image": "https://cdn.dribbble.com/users/1148489/screenshots/6387922/car-air-filter.jpg?resize=400x300&vertical=center",
-      "technologies": ["laravel 9", "React js", "mysql", "uml"],
+      "technologies": [
+        "laravel 9",
+        "React js",
+        "mysql",
+        "uml"
+      ],
       "features": [],
       "github": "https://github.com/oussKhayi/filter-managment-api",
       "demo": null
@@ -51,7 +89,11 @@
       "title": "Products management CRUD - laravel 9",
       "description": "A simple products management CRUD system with laravel 9.",
       "image": "https://ousskhayi.github.io/portfolio/images/products.png",
-      "technologies": ["laravel 9", "mysql", "bootstrap"],
+      "technologies": [
+        "laravel 9",
+        "mysql",
+        "bootstrap"
+      ],
       "features": [],
       "github": "https://github.com/oussKhayi/Laravel-9-CRUD",
       "demo": null
@@ -60,7 +102,10 @@
       "title": "Todo list - react js",
       "description": "To-Do List (React, Local Storage, Modern UI Libraries)..",
       "image": "https://lh3.googleusercontent.com/Z7l0JfqTeeK41_DGK7cRnkmagm_brdcAWCEmpXuGj_rUmOVr9vyuuoIaJtXngW1nZVg0bWjYlmGQPQsE11Og_nMH=w640-h400-e365-rj-sc0x00ffffff",
-      "technologies": ["React js", "TailwindCss"],
+      "technologies": [
+        "React js",
+        "TailwindCss"
+      ],
       "features": [],
       "github": "https://github.com/oussKhayi/todo-list-react",
       "demo": "https://ousskhayi.github.io/todo-list-react"
@@ -150,8 +195,7 @@
         "name": "Git"
       }
     ]
-  }
-  ,
+  },
   "certificates": [
     {
       "title": "Certificate",
