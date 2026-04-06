@@ -79,25 +79,27 @@ body {
 .tooltip {
   position: relative; /* making the .tooltip span a container for the tooltip text */
   border-bottom: 1px dashed #000; /* little indicater to indicate it's hoverable */
+  font-weight: 100rem;
 }
 .tooltip:before {
   content: attr(data-text); /* here's the magic */
   position: absolute;
 
   /* vertically center */
-  top: 50%;
-  transform: translateY(-50%);
+  /* top: 50%; */
+  /* transform: translateY(-30%); */
 
   /* move to right */
-  left: 100%;
-  margin-left: 15px; /* and add a small left margin */
+  /* left: 50%; */
+  /* transform: translateX(-70%); */
+  /* margin-left: 15px; and add a small left margin */
 
   /* basic styles */
-  max-width: fit-content;
+  max-width: 100%;
   text-wrap: nowrap;
   padding: 10px;
   border-radius: 10px;
-  background: #000;
+  background: #54d2d4;
   color: #fff;
   text-align: center;
 

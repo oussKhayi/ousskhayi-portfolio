@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { LeftSide } from "./components/LeftSide";
 import RightSide from "./components/RightSide";
+import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import {
   GrAppsRounded,
   GrBriefcase,
@@ -39,17 +40,18 @@ const App = () => {
   }, []);
   return (
     <>
+      <LanguageSwitcher />
       {/* <div className="mouse" id="scrollIcon"></div> */}
       <div className="bg-primary h-auto lg:h-screen p-3 md:p-8 xl:px-20 grid grid-rows-1 md:grid-cols-1 lg:grid-cols-2 lg:overflow-hidden pb-12">
         <LeftSide ref={leftRef} />
         <RightSide ref={rightRef} />
       </div>
-      <div className="fixed w-full bottom-0 lg:hidden bg-primary border-t-[0.01px] border-t-secondary bg-opacity-70 text-gray-400 pt-1">
+      <div className="fixed w-full bottom-0 lg:hidden bg-gradient-to-b from-secondary/10 to-primary bg-opacity-70 backdrop-blur-[3px] text-gray-400 pt-1">
         <ul className="p-2 flex justify-around">
           <li className="cursor-pointer hover:text-white hover:scale-110">
             <a
               href="#about"
-              className="cursor-pointer hover:text-white hover:scale-110"
+              className="cursor-pointer hover:text-white hover:scale-110 flex p-1.5"
             >
               <GrUser className="text-xl" />
             </a>
@@ -57,7 +59,7 @@ const App = () => {
           <li className="cursor-pointer hover:text-white hover:scale-110">
             <a
               href="#experience"
-              className="cursor-pointer hover:text-white hover:scale-110"
+              className="cursor-pointer hover:text-white hover:scale-110 flex p-1.5"
             >
               <GrBriefcase className="text-xl" />
             </a>
@@ -65,7 +67,7 @@ const App = () => {
           <li className="cursor-pointer hover:text-white hover:scale-110">
             <a
               href="#skills"
-              className="cursor-pointer hover:text-white hover:scale-110"
+              className="cursor-pointer hover:text-white hover:scale-110 flex p-1.5"
             >
               <GrDeploy className="text-xl" />
             </a>
@@ -73,12 +75,12 @@ const App = () => {
           <li className="cursor-pointer hover:text-white hover:scale-110">
             <a
               href="#projects"
-              className="cursor-pointer hover:text-white hover:scale-110"
+              className="cursor-pointer hover:text-white hover:scale-110 flex p-1.5"
             >
               <GrAppsRounded className="text-xl" />
             </a>
           </li>
-          <li className="cursor-pointer hover:text-white hover:scale-110">
+          <li className="cursor-pointer hover:text-white hover:scale-110 flex p-1.5">
             <a href="#contact" className="cursor-pointer">
               <GrContact className="text-xl" />
             </a>

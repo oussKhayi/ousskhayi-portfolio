@@ -2,54 +2,54 @@
   "translations": {
     "leftSide": {
       "name": "KHAYI Oussama",
-      "role": "Full stack web developer",
-      "description": "Your ideas are my passion. I love turning concepts into real, impactful digital experiences-beautiful on the frontend and rock-solid on the backend.",
-      "resumeBtn": "My resume",
+      "role": "Développeur web full stack",
+      "description": "Vos idées sont ma passion. J’aime transformer des concepts en expériences digitales concrètes et impactantes, élégantes en frontend et solides en backend.",
+      "resumeBtn": "Mon CV",
       "nav": {
-        "about": "about",
-        "experience": "experience",
-        "skills": "skills",
-        "projects": "projects",
-        "contact": "Contact me"
+        "about": "à propos",
+        "experience": "expérience",
+        "skills": "compétences",
+        "projects": "projets",
+        "contact": "Contactez-moi"
       }
     },
     "rightSide": {
-      "aboutMenu": "About me",
-      "aboutText1": "I'm a <span className=\"font-extrabold text-[#54d2d4]\">Full Stack Web Developer</span> specializing in building scalable, high-performance applications with the <span className=\"text-[#54d2d4]\">Vue.js</span>, Nuxt.js, and Laravel. Currently at <span className=\"font-semibold text-[#54d2d4]\">PIYES.COM</span>, I develop full-stack features with Laravel backends and Vue.js/Nuxt.js frontends, while implementing CI/CD pipelines and managing containerized environments.",
-      "aboutText2": "With expertise in <span className=\"text-[#54d2d4]\">Vue.js, Nuxt.js, Laravel, MongoDB, Express.js, React.js, Next.js, Node.js</span>, and <span className=\"text-[#54d2d4]\">PHP Laravel</span>, I've delivered projects from concept to production, focusing on intuitive user experiences and robust backend systems. I thrive in collaborative agile environments, turning ideas into impactful digital products that blend functionality, performance, and user-centric design.",
-      "myExperience": "My Experience",
-      "mySkills": "My Skills",
+      "aboutMenu": "À propos de moi",
+      "aboutText1": "Je suis un <span className=\"font-extrabold text-[#54d2d4]\">Développeur Web Full Stack</span> spécialisé dans la création d'applications évolutives et performantes avec <span className=\"text-[#54d2d4]\">Vue.js</span>, Nuxt.js et Laravel. Actuellement chez <span className=\"font-semibold text-[#54d2d4]\">PIYES.COM</span>, je développe des fonctionnalités full-stack avec des backends Laravel et des frontends Vue.js/Nuxt.js, tout en mettant en œuvre des pipelines CI/CD et en gérant des environnements conteneurisés.",
+      "aboutText2": "Fort d'une expertise en <span className=\"text-[#54d2d4]\">Vue.js, Nuxt.js, Laravel, MongoDB, Express.js, React.js, Next.js, Node.js</span> et <span className=\"text-[#54d2d4]\">PHP Laravel</span>, j'ai livré des projets de la conception à la production, en me concentrant sur des expériences utilisateur intuitives et des systèmes backend robustes. Je m'épanouis dans les environnements agiles collaboratifs, transformant les idées en produits numériques percutants qui allient fonctionnalité, performance et design centré sur l'utilisateur.",
+      "myExperience": "Mon expérience",
+      "mySkills": "Mes compétences",
       "frontend": "Frontend",
       "backend": "Backend",
       "mobile": "Mobile",
       "devops": "DevOps",
-      "tools": "Tools",
-      "myProjects": "My Projects",
-      "contactMe": "Contact Me"
+      "tools": "Outils",
+      "myProjects": "Mes projets",
+      "contactMe": "Me contacter"
     },
     "contactForm": {
-      "title": "Let's Talk",
-      "subtitle": "Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help.",
+      "title": "Discutons",
+      "subtitle": "Vous avez une grande idée ou une marque à développer et besoin d’aide ? Contactez-moi, je serai ravi d’en savoir plus sur votre projet et de vous accompagner.",
       "emailHeader": "Email",
-      "mailLabel": "Mail",
-      "socialsHeader": "Socials",
-      "formHeader": "Send an email",
-      "namePlaceholder": "Name",
+      "mailLabel": "Email",
+      "socialsHeader": "Réseaux",
+      "formHeader": "Envoyer un email",
+      "namePlaceholder": "Nom",
       "emailPlaceholder": "Email",
-      "subjectPlaceholder": "Subject",
-      "messagePlaceholder": "Have a question, project idea, or just want to say hello? Feel free to drop me a message here! I'll get back to you as soon as possible.",
-      "submitBtn": "submit",
-      "sending": "Sending....",
-      "successMessage": "Thank you for reaching out! I will get back to you soon.",
-      "errorMessage": "Failed to send message. Please try again."
+      "subjectPlaceholder": "Sujet",
+      "messagePlaceholder": "Vous avez une question, une idée de projet, ou vous voulez simplement dire bonjour ? N'hésitez pas à me laisser un message ici ! Je vous répondrai dans les plus brefs délais.",
+      "submitBtn": "envoyer",
+      "sending": "Envoi en cours...",
+      "successMessage": "Merci pour votre message ! Je vous répondrai rapidement.",
+      "errorMessage": "Échec de l’envoi du message. Veuillez réessayer."
     }
   },
   "experience": [
     {
-      "title": "Full Stack Developer . PIYES.COM - Casablanca",
+      "title": "Développeur Full Stack . PIYES.COM - Casablanca",
       "startDate": "May 2025",
-      "endDate": "Present",
-      "description": "Developing full-stack features with Laravel backend (REST API) and Vue.js/Nuxt.js frontend. Collaborating with the team to implement modular architecture and model business requirements. Implementing CI/CD pipelines with GitLab and managing environments using Docker, Portainer, Redis, and MinIO. Contributing to code reviews, bug resolution, and technical documentation.",
+      "endDate": "Présent",
+      "description": "Développement de fonctionnalités full-stack avec un backend Laravel (API REST) et un frontend Vue.js/Nuxt.js. Collaboration avec l'équipe pour implémenter une architecture modulaire et modéliser les besoins métier. Mise en place de pipelines CI/CD avec GitLab et gestion des environnements avec Docker, Portainer, Redis et MinIO. Contribution aux revues de code, à la résolution de bugs et à la documentation technique.",
       "technologies": [
         "PHP",
         "Vue.js",
@@ -63,10 +63,10 @@
       ]
     },
     {
-      "title": "Full Stack Developer — FeizhouCom, Casablanca",
+      "title": "Développeur Full Stack — FeizhouCom, Casablanca",
       "startDate": "August 2024",
       "endDate": "June 2025",
-      "description": "Designed and developed full-stack applications using Next.js and the MERN stack, building scalable REST APIs and responsive UIs. Managed MongoDB data models, optimized performance, and ensured clean, maintainable code. Took on technical leadership by mentoring juniors and contributing to architectural decisions. Collaborated with cross-functional teams in an Agile environment and improved workflows using Git, Swagger, Postman, and Docker.",
+      "description": "Conception et développement d'applications full-stack avec Next.js et la stack MERN, création d'API REST évolutives et d'interfaces utilisateur réactives. Gestion des modèles de données MongoDB, optimisation des performances et garantie d'un code propre et maintenable. Prise de leadership technique en encadrant les juniors et en contribuant aux décisions architecturales. Collaboration avec des équipes interfonctionnelles dans un environnement Agile et amélioration des flux de travail avec Git, Swagger, Postman et Docker.",
       "technologies": [
         "Next.js",
         "React.js",
@@ -84,10 +84,10 @@
       ]
     },
     {
-      "title": "Full stack MERN Internship . Ark-X Talent Factory - Casablanca",
+      "title": "Stage Full stack MERN . Ark-X Talent Factory - Casablanca",
       "startDate": "jan 2024",
       "endDate": "Jun 2024",
-      "description": "Engaged in an intensive MERN stack bootcamp at ARK-X Talent Factory, Casablanca. Focused on mastering MongoDB, Express.js, and Node.js for full-stack development. Learning essential skills while progressing towards becoming a proficient web developer.",
+      "description": "Participation à un bootcamp intensif sur la stack MERN chez ARK-X Talent Factory, Casablanca. Apprentissage approfondi de MongoDB, Express.js et Node.js pour le développement full-stack. Acquisition de compétences essentielles pour devenir un développeur web qualifié.",
       "technologies": [
         "React js",
         "Node JS",
@@ -96,10 +96,10 @@
       ]
     },
     {
-      "title": "Full Stack Developer . Freelance (Self employed) - Morocco",
+      "title": "Développeur Full Stack . Freelance (Self employed) - Maroc",
       "startDate": "Jul 2023",
       "endDate": "Jan 2024",
-      "description": "Worked as a freelance full stack developer, delivering various projects to clients. Specialized in building dynamic and responsive web applications using Laravel. Developed RESTful APIs and integrated third-party services. Ensured high-quality code and adherence to best practices.",
+      "description": "Travail en tant que développeur full stack freelance, livrant divers projets aux clients. Spécialisation dans la création d'applications web dynamiques et réactives avec Laravel. Développement d'API RESTful et intégration de services tiers. Garantie d'un code de haute qualité et respect des meilleures pratiques.",
       "technologies": [
         "React.js",
         "Laravel/PHP",
@@ -110,10 +110,10 @@
       ]
     },
     {
-      "title": "Backend Laravel Developer Internship . Web Services SH - Laayoune",
+      "title": "Stage Développeur Backend Laravel . Web Services SH - Laâyoune",
       "startDate": "fab 2022",
       "endDate": "may 2022",
-      "description": "During my one-month internship as a Laravel Developer at Web Services SH, Laayoune, I was responsible for the creation of an online cosmetics store.",
+      "description": "Durant mon stage d'un mois en tant que développeur Laravel chez Web Services SH à Laâyoune, j'ai été responsable de la création d'une boutique de cosmétiques en ligne.",
       "technologies": [
         "laravel 9",
         "bootstrap",
@@ -124,8 +124,8 @@
   ],
   "projects": [
     {
-      "title": "Interactive E-learning Platform",
-      "description": "A comprehensive e-learning platform allowing users to access online courses, track their progress, and interact with instructors in real-time. It integrates a secure authentication system (JWT & Google OAuth), payment management via Stripe, and optimized video streaming. The application also offers real-time features using WebSockets for live notifications and interactions.",
+      "title": "Plateforme E-learning interactive",
+      "description": "Une plateforme e-learning complète permettant aux utilisateurs d’accéder à des cours en ligne, suivre leur progression et interagir en temps réel avec les instructeurs. Elle intègre un système d’authentification sécurisé (JWT & OAuth Google), la gestion des paiements via Stripe, ainsi que le streaming vidéo optimisé. L’application propose également des fonctionnalités temps réel avec WebSockets pour les notifications et interactions live.",
       "image": "https://images.unsplash.com/photo-1584697964403-9cfa0c7b2b0b",
       "technologies": [
         "Node.js",
@@ -137,21 +137,21 @@
         "Socket.io"
       ],
       "features": [
-        "Secure authentication (JWT + Google OAuth)",
-        "Course and module management",
-        "Video streaming via Vimeo integration",
-        "Media upload and storage with AWS S3",
-        "Secure online payment with Stripe",
-        "Student progress tracking system",
-        "Real-time notifications using WebSockets",
-        "Interactive dashboard with statistics"
+        "Authentification sécurisée (JWT + Google OAuth)",
+        "Gestion des cours et des modules",
+        "Streaming vidéo via intégration Vimeo",
+        "Upload et stockage des médias avec AWS S3",
+        "Paiement en ligne sécurisé avec Stripe",
+        "Système de progression des étudiants",
+        "Notifications en temps réel avec WebSockets",
+        "Dashboard interactif avec statistiques"
       ],
       "github": "",
       "demo": null
     },
     {
-      "title": "Employees management system",
-      "description": "An employees  management system website created by Laravel and Blade, including attendence and payments tracking.",
+      "title": "Système de gestion des employés",
+      "description": "Un site de système de gestion des employés créé avec Laravel et Blade, incluant le suivi des présences et des paiements.",
       "image": "https://www.cutehr.io/wp-content/uploads/2020/05/employees-dashboard-cuteHR-1-1400x788.jpg",
       "technologies": [
         "laravel 9",
@@ -164,8 +164,8 @@
       "demo": null
     },
     {
-      "title": "Cars filters management",
-      "description": "Cars filters management system created with Laravel, mysqli and react js",
+      "title": "Gestion des filtres de voitures",
+      "description": "Système de gestion de filtres de voitures créé avec Laravel, mysqli et React JS.",
       "image": "https://cdn.dribbble.com/users/1148489/screenshots/6387922/car-air-filter.jpg?resize=400x300&vertical=center",
       "technologies": [
         "laravel 9",
@@ -178,8 +178,8 @@
       "demo": null
     },
     {
-      "title": "Products management CRUD - laravel 9",
-      "description": "A simple products management CRUD system with laravel 9.",
+      "title": "Gestion de produits CRUD - Laravel 9",
+      "description": "Un simple système de gestion de produits CRUD avec Laravel 9.",
       "image": "https://ousskhayi.github.io/portfolio/images/products.png",
       "technologies": [
         "laravel 9",
@@ -191,8 +191,8 @@
       "demo": null
     },
     {
-      "title": "Todo list - react js",
-      "description": "To-Do List (React, Local Storage, Modern UI Libraries)..",
+      "title": "Liste de tâches - React JS",
+      "description": "Liste de tâches (React, Local Storage, bibliothèques UI modernes).",
       "image": "https://lh3.googleusercontent.com/Z7l0JfqTeeK41_DGK7cRnkmagm_brdcAWCEmpXuGj_rUmOVr9vyuuoIaJtXngW1nZVg0bWjYlmGQPQsE11Og_nMH=w640-h400-e365-rj-sc0x00ffffff",
       "technologies": [
         "React js",
@@ -204,9 +204,9 @@
     }
   ],
   "skills": [
-    "Front end development",
-    "Back end development",
-    "full stack web development"
+    "Développement Frontend",
+    "Développement Backend",
+    "Développement web full stack"
   ],
   "technologies": {
     "front-end": [
@@ -325,6 +325,10 @@
         "name": "Portainer"
       },
       {
+        "icon": "devicon-socketio-original colored",
+        "name": "Socket.io"
+      },
+      {
         "icon": "devicon-redis-plain colored",
         "name": "Redis"
       },
@@ -374,8 +378,8 @@
   },
   "certificates": [
     {
-      "title": "Certificate",
-      "description": "A simple portfolio website",
+      "title": "Certificat",
+      "description": "Un simple site portfolio",
       "image": "portfolio.png",
       "link": ""
     }
